@@ -10,7 +10,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Text>start of the project</Text>
       <StatusBar style="auto" />
-      <Button title={'Add Trip 1'} color='green' onPress={buttonpressed}/>
+      <Button title={'Add Trip'} color='green' onPress={buttonpressed}/>
     </SafeAreaView>
   );
 }
